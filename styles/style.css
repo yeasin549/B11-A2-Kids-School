@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+}
+
+
+/* Common Styles */
+
+.color-01{
+    color: #FEA301;
+}
+.color-02{
+    color: #01ACFD;
+}
+
+.color-03{
+    color: #05D4DF;
+}
+
+.color-04{
+    color: #5D58EF;
+}
+.bold{
+    font-weight: 600;
+}
+
+.margin-left{
+    margin-left: 350px;
+    
+    
+}
+
+.btn-primary{
+    font-size: 20px;
+    color: #ffff;
+    padding: 10px 60px;
+    background-color: #FEA301;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 197px;
+}
+
+
+
+/* Header related Styles */
+
+
+
+/* nav related style */
+
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+nav, ul, .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-logo{
+    margin-left: 140px;
+    width: 62px;
+    height: 62px;
+}
+.nav-logo-1{
+    
+    width: 40px;
+    height: 30px;
+}
+
+
+.nav-title{
+    font-size: 32px;
+    margin-left: 11px;
+    
+   
+      
+     
+}
+
+ ul{
+    margin-right: 140px;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin:  0px 32px;
+    font-weight: 500;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.item{
+    font-size: 20px;
+    
+}
+
+.hide{
+    display: none;
+}
+
+
+
+/* banner related style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: 800;
+    margin-top: 122px ;
+    margin-left: 144px;
+}
+
+.banner-description{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 144px;
+}
+
+.btn-2{
+    font-size: 20px;
+    font-weight: 700 ;
+    color: #ffff;
+    padding: 10px 45px;
+    background-color: #111111;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 197px;
+    margin-left: 144px;
+}
+
+.banner-img{
+    height: 575px;
+    width: 468px;
+    margin-right: 135px;
+    
+    
+    
+    
+}
+
+
+/* Responsive for small Device */
+
+@media screen and (max-width: 576px) {
+    
+    /* nav related design */
+    .nav-logo{
+        margin-left: 16px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .nav-title,
+    ul, .nav-logo-1{
+        display: none;
+    }
+    .nav-logo-1{
+        display: inline;
+        margin-left: 318px;
+        margin-right: 16px;
+        width: 30px;
+        height: 20px;
+        align-items: right;
+       
+        
+    }
+
+    /* banner related design */
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner-title{
+        margin: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .banner-description{
+        margin: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .btn, .btn-2{
+        
+       text-align: center; 
+       margin: 0 auto;
+    }
+
+    .banner-img{
+        width: 100%;
+        height: 100%;
+    }
+
+        
+}
