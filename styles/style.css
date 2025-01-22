@@ -635,6 +635,10 @@ footer ul li a {
        
         
     }
+    .marquee{
+        margin-left: 10px;
+        width: 94%;
+    }
    
     /* banner related design */
 
@@ -745,6 +749,13 @@ footer ul li a {
      
 }
 
+.arrow{
+    margin-top: 30px;
+}
+
+
+
+
 
 
 /* story section related design */
@@ -753,48 +764,102 @@ footer ul li a {
     width: 100%;
     height: auto;
     gap: none;
-}
-.story-content{
-   display: none;
+    
 }
 
+.story-content{
+    display: none;
+}
 .story-item{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 90%;
-}
-.story-title{
-    padding-bottom: 40px;
-}
-
-.item-1{
-    width:100%;
+    width: 50%;
     height: auto;
-    margin-right: 15px;
-}
-
-.item-title{
-    font-size: 12px;
-    padding-top: 5px ;
-    padding-left: 5px;
-
-}
-
-
-}
-
-
-/*  Responsive for large Device */ 
-
-@media screen and (min-width: 992px) and (max-width: 1366px){
-   ul{
-    margin-right: 140px;
-   }
-
-   .banner-img{
-    margin-right: 170px;
-   }
+    margin-left: 5px;
+    
     
 
 }
+.story-2-img{
+    width:191px;
+    height: auto;
+}
+
+.card-date-time-2{
+    margin-top: 88px;
+    width: 80%;
+    font-size: 10px;
+    margin-left: 18px;
+    
+}
+
+.card-date-time-3{
+    margin-top: 88px;
+    width: 80%;
+    font-size: 10px;
+    margin-left: 18px;
+    
+}
+
+.item-title, .item-subtitle{
+    padding: 5px;
+    font-size: 14px;
+}
+
+.item-1{
+    width: 191px;
+    height: 200px;
+}
+
+
+/* footer section related styles */
+
+footer{
+    width: 100%;
+    height: auto;
+}
+.footer 
+{
+    flex-direction: column;
+}
+.footer-content{
+    flex-direction: initial;
+    margin-left: 10px;
+}
+.footer-container{
+    margin-left: 30px;
+}
+.footer-about{
+    margin-left: 10px;
+}
+.footer-description{
+    margin-left: 20px;
+}
+
+.about-title{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.footer-item{
+    margin-left: 2px;
+}
+
+.footer-contact{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.contact-title, .footer-img{
+    margin-bottom: 50px;
+}
+
+
+}
+
+
+
+
+
     
