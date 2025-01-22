@@ -416,7 +416,6 @@ ul{
     
 }
 
-
 .item-title{
     padding-top: 38px;
     padding-left: 38px;
@@ -474,20 +473,7 @@ ul{
     padding-top: 10px;
     color: #ffff;
 }
-.story4-img{
-    width: 335px;
-    height: auto;
-    border-radius: 10px;
-    position: absolute;
-    
-}
-.story5-img{
-    width: 335px;
-    height: auto;
-    border-radius: 10px;
-    position: absolute;
-    
-}
+
 
 .story-item{
     display: grid;
@@ -591,6 +577,7 @@ footer ul li a {
     font-size: 26px;
     font-weight: 700;
     color: #ffff;
+    margin-bottom: 20px;
     
 }
 .footer-contact{
@@ -750,7 +737,7 @@ footer ul li a {
 }
 
 .arrow{
-    margin-top: 30px;
+    display: none;
 }
 
 
