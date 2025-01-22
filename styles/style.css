@@ -59,7 +59,7 @@ nav, ul, .navbar{
 }
 
 .nav-logo{
-    margin-left: 140px;
+    margin-left: 300px;
     width: 62px;
     height: 62px;
 }
@@ -117,6 +117,19 @@ nav ul li a{
     display: none;
 }
 
+.marquee{
+    background-color: #05D4DF;
+    width: 71%;
+    color: #ffff;
+    height: 50px;
+    padding-top: 12px;
+    margin-left: 300px;
+    border-radius: 15px;
+    
+    
+    
+}
+
 
 
 /* banner related style */
@@ -131,14 +144,14 @@ nav ul li a{
     font-size: 56px;
     font-weight: 800;
     margin-top: 122px ;
-    margin-left: 144px;
+    margin-left: 300px;
 }
 
 .banner-description{
     font-size: 20px;
     margin-top: 24px;
     margin-bottom: 24px;
-    margin-left: 144px;
+    margin-left: 300px;
 }
 ul{
     margin-right: 150px;
@@ -154,17 +167,15 @@ ul{
     border-radius: 10px;
     height: 50px;
     width: 197px;
-    margin-left: 140px;
+    margin-left: 300px;
 }
 
 .banner-img{
     height: 575px;
     width: 468px;
-    margin-left: 70px;
+    margin-left: 250px;
     
-    
- 
-    
+        
 }
 
 
@@ -174,7 +185,7 @@ ul{
 
 .container{
     width: 1960px;
-    height: 1059px;
+    height: 750px;
     background-image: url(../assets/bg.png);
     
    
@@ -199,7 +210,7 @@ ul{
 .card-1{
     height: 450px;
     width: 400px;
-    margin-left: 140px;
+    margin-left: 300px;
     box-sizing: border-box;
     border: 1px solid rgb(222, 245, 255);
     border-radius: 18px;
@@ -285,12 +296,51 @@ ul{
 }
 
 
+/* arrow section style */
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-left{
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #FEA301;
+     
+}
+
+.arrow-right{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    border-radius: 40px;
+    background-color: #FEA301;
+     
+}
+
+.arrow-img{
+    width: 15px;
+    height: 24px;
+    margin-left: 22px;
+    margin-top: 17px;
+    
+    
+    
+    }
+
+
 
 /* Story related Styles */
+
 .story-section{
     width: 1960px;
-    height: 750px;
-    background: url(../assets/bg.png),linear-gradient( rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    height: auto;
+    background: url(../assets/bg.png) 100%, linear-gradient( rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 80%);
     display: flex;
     gap: 19px;
 }
@@ -300,7 +350,8 @@ ul{
     height: 700px;
     border-radius: 10px;
     background-color: hsl(0, 13%, 95%);
-    margin-left: 140px;
+    margin-left: 300px;
+    
     
    
 }
@@ -330,14 +381,35 @@ ul{
 
 .story1-img{
     width: 650px;
-    height: 450px;
+    height: 380px;
     border-radius: 5px;
+    position: absolute;
+   
     
+}
+.card-date-time{
+    width: 174px;
+    height: 47px;
+    border: none;
+    background-color: #3CD8E8;
+    border-radius: 10px;
+    margin-top: 358px;
+    margin-left: 38px;
+    position: relative;
+    
+
+}
+.date-title{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 14px;
+    color: #ffff;
 }
 
 .item-1{
-    width: 330px;
-    height: 340px;
+    width: 335px;
+    height: 350px;
     background-color: hsl(0, 13%, 95%);
     border-radius: 10px;
     
@@ -350,18 +422,78 @@ ul{
     padding-left: 38px;
     padding-right: 38px;
 }
-.item1-img{
-    width: 100%;
+
+.item-subtitle{
+    padding-top: 20px;
+    padding-left: 38px;
+    
+}
+.story-2-img{
+    width: 335px;
     height: auto;
-    display: block;
     border-radius: 10px;
+    position: absolute;
+    
+}
+
+.card-date-time-2{
+    width: 174px;
+    height: 40px;
+    border: none;
+    background-color: #95B226;
+    border-radius: 10px;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 180px;
+}
+
+.story3-img{
+    width: 335px;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    
+}
+
+.card-date-time-3{
+    width: 174px;
+    height: 40px;
+    border: none;
+    background-color: #5D58F0;
+    border-radius: 10px;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 180px;
+    
+}
+
+.date-title-3{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    color: #ffff;
+}
+.story4-img{
+    width: 335px;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    
+}
+.story5-img{
+    width: 335px;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    
 }
 
 .story-item{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    padding: 20px;
+    
     
     
     
@@ -371,6 +503,8 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../assets/bg.png);
+
     
 }
 .btn-view-1{
@@ -381,10 +515,10 @@ ul{
     color: #ffff;
     border-radius: 10px;
     margin-bottom: 60px;
+    margin-top: 35px;
     
    
 }
-
 
 /* footer related Style */
 footer{
@@ -418,10 +552,10 @@ footer{
     color: #ffff;
 }
 .footer-container{
-    margin-left: 140px;
+    margin-left: 300px;
 }
 .footer-about{
-    margin-left: 279px;
+    margin-left: 300px;
 }
 
 .about-title{
@@ -460,7 +594,7 @@ footer ul li a {
     
 }
 .footer-contact{
-    margin-left: 143px;
+    margin-left: 230px;
 }
 
 
